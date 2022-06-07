@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: white;
+}
+span img{
+    height: 88px; /* 62px */
+    width: 92px; /* 95px */
+    border-radius: 150px;
+    box-shadow: 10px 10px 10px black;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li a{
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+    text-shadow:  -5px 15px 15px black; /* 10px 10px 10px */
+    font-size: larger;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.ls{
+    margin-left: 650px;
+}
+
+.navbar{
+    margin-top: -7px;
+}
+
+                        /*FOR INPUT SECTION*/
+
+input[type="button" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: lightblue;/*-internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));*/
+    color: buttontext;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: transparent;
+    border-image: initial;
+    height: 36px;
+    width: 100px;
+    box-shadow: -5px 15px 15px black;
+}
+
+/* .bacimg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+*/
+
+/*perfect background*/
+
+/* .bacimg img{
+    height: 100%;
+    width: 100%;
+}
+*/
+
+/* h1{
+    text-transform: capitalize;
+    margin-top: 100px;
+    margin-left: 50px;
+} */
+
+.size img{
+    height: 10cm;
+    width: 10cm;
+    margin: 100px 0px -404px 94px; /*100px 0px 0px 100px*/
+    max-height: 500px;
+    border-radius: 500px;
+}
+
+.size{
+    align-items: center;
+    display: flex;
+}
+
+.text{
+    margin-left: 150px;
+    text-transform: capitalize;
+    text-decoration: dashed;
+    color: black;
+    
+}
+
+                                /*For Text Section*/
+
+h1 {
+    display: block;
+    font-size: 4em;
+    margin-block-start: 0.33em;
+    margin-block-end: -6.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.nippon{
+    float: left;
+    margin: 114px 29px -169px -580px;
+}
+
+h2{
+    font-size: 2em;
+    text-transform: capitalize;
+}
+
+.NIPPON{
+    float: left;
+    margin: 320px 0px -80px -318px;
+}
+
+.NIPPON h3{
+    font-size: 1.5em;
+    text-transform: capitalize;
+}
+
+.nIPPON{
+    float: left;
+    margin: 420px 85px -80px -250px;
+}
+
+.NIPPOn{
+    float: left;
+    margin: 62px 85px -570px -500px;
+}
+
+.NB{
+    float: left;
+    margin: 147px 85px -615px -395px;
+}
+
+.NB h2{
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.botem div{
+    margin-bottom: 0px;
+    margin-top: 450px;
+    float: inline-end;
+    text-align: center;
+}
